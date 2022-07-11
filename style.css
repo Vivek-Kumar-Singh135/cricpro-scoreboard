@@ -1,16 +1,97 @@
 /* Type your code here */
 
+body {
+    font-family: Nunito Sans;
+}
+
+nav {
+    margin-right: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.container {
+    margin-left: 5%;
+    margin-right: 8%;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.score {
+    color: rgb(125, 124, 124);
+    font-size: large;
+}
+
+.scorecard {
+    height: 500px;
+    background-image: url("assets/background-image1.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+table {
+    background-color: grey;
+    border-collapse: collapse;
+    height: 380px;
+    width: 720px;
+    font-weight: 800;
+}
+
+.head {
+    color: white;
+    background-color: orangered;
+}
+
+tr {
+    height: 30px;
+    background-color: white;
+}
+
+td {
+    width: fit-content;
+}
+
+.sr {
+    text-align: right;
+}
+
+.data {
+    text-align: center;
+}
+
+.gap {
+    background-color: lightgrey;
+    height: 0.7px;
+}
+
+#wkt {
+    font-weight: normal;
+    color: rgb(125, 124, 124);
+}
+
+a {
+    text-decoration: none;
+}
+
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
+
+.footer {
+    display: flex;
     flex-direction: row;
     align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
+    position: relative;
+    margin-left: 80px;
+    font-size: 18px;
+    font-family: Nunito Sans;
     font-style: normal;
-    
 }
